@@ -57,8 +57,10 @@ const [loading, setLoading] = useState(true);
     return (
         <>
         <div style={{ margin:"0 auto",background: '#27293d',padding:'40px 0px'}}>
+        <div style={{width:'60%',margin:"0 auto"}}>
         <h3 style={{textAlign:'center'}}>Pie Chart</h3>
         {loading ? (<h3 style={{textAlign:'center'}}>Loading.......</h3>):( <Pie  data={data} />)}
+            </div>
             </div>
         </>
     )

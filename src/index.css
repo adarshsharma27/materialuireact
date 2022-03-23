@@ -46,7 +46,9 @@ top:15px!important;
     font-size: 1rem!important;
      background-color: #2b3553!important;
 }
-
+.MuiBottomNavigationAction-root{
+  color:#fff!important;
+}
 ::-webkit-scrollbar{
   background-color: #2b3553;
       width: 10px;

@@ -9,7 +9,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 const useStyles = makeStyles({
   root: {
     width: '100%',
-    boxShadow: "0 5px 30px 0 rgb(0 0 0 / 8%)",
+    backgroundColor:'#1e1e2f'
   },
 });
 
